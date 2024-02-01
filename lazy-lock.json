@@ -1,5 +1,6 @@
 {
   "Hypersonic.nvim": { "branch": "main", "commit": "a98dbd6b5ac1aac3cd895990e08d1ea40e67a9e3" },
+  "LuaSnip": { "branch": "master", "commit": "2dbef19461198630b3d7c39f414d09fb07d1fdd2" },
   "autoclose.nvim": { "branch": "main", "commit": "37e11589aac55b0e8810dc5865f898f9cb36fef6" },
   "coq_nvim": { "branch": "coq", "commit": "792a5547052561d1089d523d68cad5859e9c78d9" },
   "firenvim": { "branch": "master", "commit": "f2dd6d3bcf3309a7dd30c79b3b3c03ab55cea6e2" },

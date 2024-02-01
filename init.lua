@@ -23,7 +23,8 @@ require("lazy").setup({
 		{"folke/which-key.nvim", lazy = false},
 		{"nvim-telescope/telescope.nvim", lazy = false},
 		{"akinsho/toggleterm.nvim", lazy = false},
-		{"tomiis4/Hypersonic.nvim", lazy = false}
+		{"tomiis4/Hypersonic.nvim", lazy = false},
+		{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
 })
 require("lualine").setup()
 require("autoclose").setup()
