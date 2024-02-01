@@ -26,7 +26,7 @@ require("lazy").setup({
 		{"tomiis4/Hypersonic.nvim", lazy = false},
 		{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
 })
-require("lualine").setup()
+require("lualine-setup")
 require("autoclose").setup()
 require("ibl").setup()
 require("toggleterm").setup()
@@ -35,3 +35,4 @@ vim.o.tabstop = 4
 vim.o.cursorline = true
 vim.cmd[[:tnoremap <Esc> <C-\><C-n>]]
 require("whichkey")
+
