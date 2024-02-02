@@ -196,6 +196,10 @@ local mappings = {
 				R = { "<cmd>Telescope registers<cr>", "Registers" },
 				k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
 				C = { "<cmd>Telescope commands<cr>", "Commands" },
+				p = {
+				"<cmd>lua require('telescope.builtin').find_files({cwd='~/.config/nvim'})<cr>",
+				"Private config",
+		},			
 		},
 		-- Terminal
 }
