@@ -12,13 +12,6 @@ require("lazy").setup({
 				"MunifTanjim/nui.nvim"
 		}},
 		{"ms-jpq/coq_nvim", lazy = false},
-		{
-				"glacambre/firenvim",
-				lazy = not vim.g.started_by_firenvim,
-				build = function()
-						vim.fn["firenvim#install"](0)
-				end
-		},
 		{"jidn/vim-dbml", lazy = false},
 		{"folke/which-key.nvim", lazy = false},
 		{"nvim-telescope/telescope.nvim", lazy = false},
