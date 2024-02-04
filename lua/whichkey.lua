@@ -102,7 +102,8 @@ local mappings = {
 		["p"] = {"<cmd>Neotree<CR>", "Neotree"},
 		["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
 		["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
-		["t"] = {"<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Toggle terminal"},
+		["t"] = {"<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Toggle terminal (bottom)"},
+		["T"] = {"<cmd>ToggleTerm direction=float<cr>", "Toggle terminal (floating)"},
 
 		--[[
 		-- Packer
