@@ -18,7 +18,10 @@ require("lazy").setup({
 	{"akinsho/toggleterm.nvim", lazy = false},
 	{"tomiis4/Hypersonic.nvim", lazy = false},
 	{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
+	{"numToStr/Comment.nvim", lazy = false},
 })
+require("neovide-setup")
+require("comment-setup")
 require("lualine-setup")
 require("autoclose").setup()
 require("ibl").setup()
