@@ -19,8 +19,11 @@ require("lazy").setup({
 	{"tomiis4/Hypersonic.nvim", lazy = false},
 	{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
 	{"numToStr/Comment.nvim", lazy = false},
-	{"https://github.com/rktjmp/playtime.nvim", lazy = false},
+	{"rktjmp/playtime.nvim", lazy = false},
+	{"jim-fx/sudoku.nvim", lazy = false},
 })
+require("sudoku-setup")
+require("neotree-setup")
 require("neovide-setup")
 require("comment-setup")
 require("lualine-setup")

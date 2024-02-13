@@ -96,6 +96,9 @@ local mappings = {
 	["Q"] = { "<cmd>q!<CR>", "Force quit" },
 	["n"] = {"<cmd>lua vim.wo.number = not vim.wo.number<CR>", "Toggle line numbers"},
 	--  ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+	["+"] = {"<cmd>lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<cr>", "Increase scale"},
+	["-"] = {"<cmd>lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<cr>", "Decrease scale"},
+	["="] = {"<cmd>lua vim.g.neovide_scale_factor = 1.0<cr>", "Reset scale"},
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 	["f"] = {
 		"<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
@@ -130,6 +133,12 @@ local mappings = {
 		r = {"<cmd>Lazy restore<CR>", "Restore"},
 		p = {"<cmd>Lazy profileR>", "Profile"},
 		d = {"<cmd>Lazy debug<CR>", "Debug"}
+	},
+	-- Games
+	g ={
+		p = {"<cmd>Playtime<CR>", "Playtime"},
+		s = {"<cmd>Sudoku<CR>", "Sudoku"}
+
 	},
 	-- Git
 	--[[
