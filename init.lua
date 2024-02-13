@@ -19,7 +19,7 @@ require("lazy").setup({
 	{"tomiis4/Hypersonic.nvim", lazy = false},
 	{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
 	{"numToStr/Comment.nvim", lazy = false},
-	{"https://github.com/rktjmp/shenzhen-solitaire.nvim", lazy = false},
+	{"https://github.com/rktjmp/playtime.nvim", lazy = false},
 })
 require("neovide-setup")
 require("comment-setup")

@@ -90,8 +90,10 @@ local mappings = {
 	},
 	]]--
 	--  ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
-	["w"] = { "<cmd>w!<CR>", "Save" },
-	["q"] = { "<cmd>q!<CR>", "Quit" },
+	["w"] = { "<cmd>w<CR>", "Save" },
+	["q"] = { "<cmd>q<CR>", "Quit" },
+	["W"] = { "<cmd>w!<CR>", "Force save" },
+	["Q"] = { "<cmd>q!<CR>", "Force quit" },
 	["n"] = {"<cmd>lua vim.wo.number = not vim.wo.number<CR>", "Toggle line numbers"},
 	--  ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
