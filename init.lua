@@ -21,6 +21,12 @@ require("lazy").setup({
 	{"numToStr/Comment.nvim", lazy = false},
 	{"rktjmp/playtime.nvim", lazy = false},
 	{"jim-fx/sudoku.nvim", lazy = false},
+	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
+	{'williamboman/mason.nvim'},
+	{'williamboman/mason-lspconfig.nvim'},
+	{'neovim/nvim-lspconfig'},
+	{'hrsh7th/nvim-cmp'},
+	{'hrsh7th/cmp-nvim-lsp'},
 })
 require("sudoku-setup")
 require("neotree-setup")
@@ -36,4 +42,4 @@ vim.o.shiftwidth = 4
 vim.o.cursorline = true
 vim.cmd[[:tnoremap <Esc> <C-\><C-n>]]
 require("whichkey")
-
+require("lspzero-config")
