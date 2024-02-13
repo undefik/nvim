@@ -36,10 +36,11 @@ require("lualine-setup")
 require("autoclose").setup()
 require("ibl").setup()
 require("toggleterm").setup()
-vim.cmd[[colorscheme base16-ayu-dark]]
+vim.cmd[[colorscheme base16-chalk]]
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.cursorline = true
 vim.cmd[[:tnoremap <Esc> <C-\><C-n>]]
 require("whichkey")
 require("lspzero-config")
+require("telescope-setup")
