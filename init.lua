@@ -27,6 +27,8 @@ require("lazy").setup({
 	{'neovim/nvim-lspconfig'},
 	{'hrsh7th/nvim-cmp'},
 	{'hrsh7th/cmp-nvim-lsp'},
+	{'tpope/vim-dadbod'},
+	{'lambdalisue/suda.vim'}
 })
 require("sudoku-setup")
 require("neotree-setup")
@@ -40,6 +42,7 @@ vim.cmd[[colorscheme base16-chalk]]
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.cursorline = true
+vim.cmd[[:set termguicolors]]
 vim.cmd[[:tnoremap <Esc> <C-\><C-n>]]
 require("whichkey")
 require("lspzero-config")
