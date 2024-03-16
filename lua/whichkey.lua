@@ -110,17 +110,8 @@ local mappings = {
 	["t"] = {"<cmd>ToggleTerm size=15 direction=horizontal<cr>", "Toggle terminal (bottom)"},
 	["T"] = {"<cmd>ToggleTerm direction=float<cr>", "Toggle terminal (floating)"},
 
-	--[[
-	-- Packer
-	p = {
-	name = "Packer",
-	c = { "<cmd>PackerCompile<cr>", "Compile" },
-	i = { "<cmd>PackerInstall<cr>", "Install" },
-	s = { "<cmd>PackerSync<cr>", "Sync" },
-	S = { "<cmd>PackerStatus<cr>", "Status" },
-	u = { "<cmd>PackerUpdate<cr>", "Update" },
-	},
-	]]--
+	-- SudaWrite
+	S = {"<cmd>SudaWrite<CR>", "Write as root"},
 	L = {
 		name = "Lazy",
 		h = {"<cmd>Lazy home<CR>", "Home"},

@@ -28,7 +28,9 @@ require("lazy").setup({
 	{'hrsh7th/nvim-cmp'},
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'tpope/vim-dadbod'},
-	{'lambdalisue/suda.vim'}
+	{'lambdalisue/suda.vim'},
+	{'leafo/moonscript-vim'},
+
 })
 require("sudoku-setup")
 require("neotree-setup")
