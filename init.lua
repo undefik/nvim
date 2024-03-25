@@ -30,6 +30,13 @@ require("lazy").setup({
 	{'tpope/vim-dadbod'},
 	{'lambdalisue/suda.vim'},
 	{'leafo/moonscript-vim'},
+	{
+		'glacambre/firenvim',
+		lazy = not vim.g.started_by_firenvim,
+		build = function()
+			vim.fn["firenvim#install"](0)
+		end
+	}
 
 })
 require("sudoku-setup")
@@ -49,3 +56,4 @@ vim.cmd[[:tnoremap <Esc> <C-\><C-n>]]
 require("whichkey")
 require("lspzero-config")
 require("telescope-setup")
+require("firenvim-setup")
