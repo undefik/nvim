@@ -8,7 +8,6 @@ require("neo-tree").setup({
 	popup_border_style = "rounded",
 	enable_git_status = true,
 	enable_diagnostics = true,
-	enable_normal_mode_for_inputs = false, -- Enable normal mode for input dialogs.
 	open_files_do_not_replace_types = { "terminal", "trouble", "qf" }, -- when opening files, do not use windows containing these filetypes or buftypes
 	sort_case_insensitive = false, -- used when sorting files and directories in the tree
 	sort_function = nil , -- use a custom function for sorting files and directories in the tree 
@@ -38,8 +37,8 @@ require("neo-tree").setup({
 			expander_highlight = "NeoTreeExpander",
 		},
 		icon = {
-			folder_closed = "",
-			folder_open = "",
+			folder_closed = "",--"",
+			folder_open = "",--"",
 			folder_empty = "󰜌",
 			-- The next two settings are only a fallback, if you use nvim-web-devicons and configure default icons there
 			-- then these will never be used.
@@ -97,7 +96,7 @@ require("neo-tree").setup({
 	commands = {},
 	window = {
 		position = "left",
-		width = 40,
+		width = 30,
 		mapping_options = {
 			noremap = true,
 			nowait = true,
