@@ -15,7 +15,6 @@ require("lazy").setup({
 	{"jidn/vim-dbml", lazy = false},
 	{"folke/which-key.nvim", lazy = false},
 	{"nvim-telescope/telescope.nvim", lazy = false},
-	{"akinsho/toggleterm.nvim", lazy = false},
 	{"tomiis4/Hypersonic.nvim", lazy = false},
 	{"L3MON4D3/LuaSnip", run = "make install_jsregexp"},
 	{"numToStr/Comment.nvim", lazy = false},
@@ -42,12 +41,10 @@ require("lazy").setup({
 })
 require("sudoku-setup")
 require("neotree-setup")
-require("neovide-setup")
 require("comment-setup")
 require("lualine-setup")
 require("autoclose").setup()
 require("ibl").setup()
-require("toggleterm").setup()
 vim.cmd[[colorscheme base16-chalk]]
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
