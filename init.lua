@@ -37,7 +37,7 @@ require("lazy").setup({
 		end
 	},
 	{'norcalli/nvim-colorizer.lua'},
-
+	{'imsnif/kdl.vim'},
 })
 require("sudoku-setup")
 require("neotree-setup")
