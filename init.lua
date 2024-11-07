@@ -45,7 +45,7 @@ require("comment-setup")
 require("lualine-setup")
 require("autoclose").setup()
 require("ibl").setup()
-vim.cmd[[colorscheme base16-chalk]]
+vim.cmd[[colorscheme base16-atelier-forest]]
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.cursorline = true
